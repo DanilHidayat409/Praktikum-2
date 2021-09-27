@@ -1,0 +1,20 @@
+"""
+#Created on Mon Sep 27 14:50:59 2021
+laporan Praktikum 1
+@author: Muhammad Danil Hidayat
+@nim : 065002100032
+@hari/tanggal : 20210927
+"""
+
+print("Menghitung panjang dan lebar luas persegi panjang")
+which = int(input("berapa panjang nya?: "))
+luas = int(input("berapa lebar nya?: "))
+satuan = input("masukan satuan(meter/inchi) :")
+
+if satuan == "meter" :
+    conv_luas = (luas * which)
+    print("luas ruangan dengan panjang",which,"dan lebar",luas,"adalah",conv_luas,satuan)
+    
+elif satuan == "inchi" :
+    conv_luas = (luas * which)
+    print("luas ruangan dengan panjang",which,"dan lebar",luas,"adalah",conv_luas,satuan)
